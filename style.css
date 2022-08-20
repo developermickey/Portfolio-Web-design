@@ -1,8 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 html, body {
     width: 100%;
     height: 100%;
+}
+#main {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+#nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+#nav .logo img{
+
+    height: 50px;
+}
+.menu h3{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.menu h3 a {
+   text-decoration: none;
+   text-decoration-style: none;
+   color: #fff;
+   font-weight: 300;
+   font-size: 14px;
+   cursor: pointer;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+#page1 #left {
+    width: 50%;
+    height: 100%;
+}
+#page1 #left img{
+    height: 625px;
+    margin-left: 250px;
+}
+#page1 #right {
+    width: 50%;
+    height: 100%;
+    padding-top: 180px;
+    padding-right: 100px;
+}
+#page1 #right h4 {
+    color: #c71a27;
+    margin-bottom: 10px;
+}
+#page1 #right h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 52px;
+}
+#page1 #right p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: .8px;
+    font-family: Poppins;
+}
+#page1 #right p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: .8px;
+    font-family: Poppins;
+}
+#page1 #right #btn {
+    font-family: Poppins;
+    background-color: #c71a27;
+    padding: 10px 50px;
+    margin-top: 30px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+#page2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: -100px;
+}
+
+#page2 #page2left{
+    width: 50%;
+    background-color: #181818;
+}
+
+
+
+
+
+#page2 #page2right{
+    width: 50%;
+    background-color: #111111;
+}
