@@ -169,7 +169,13 @@ html, body {
     justify-content: center;
     display: flex;
     gap: 10px;
+    letter-spacing: 3px;
 }
+#page2 #page2left .boxcode .assss { 
+    color: #c71a27 !important;
+
+}
+
 
 
 
