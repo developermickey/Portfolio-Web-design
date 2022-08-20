@@ -116,16 +116,31 @@ html, body {
     position: absolute;
     left: 15%;
     background-color: #1e1e1e;
+    transition: 1 cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+div#one:hover {
+    background-color: #c71926;
+    transform: scale(1.1);
 }
 #two{
     position: absolute;
     left: 40%;
     background-color: #c71a27;
+    transition: 1 cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+div#two:hover {
+    background-color: #1e1e1e;
+    transform: scale(1.1);
 }
 #three{
     position: absolute;
     left: 65%;
     background-color: #181818;
+    transition: 1 cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+div#three:hover {
+    background-color: #c71926;
+    transform: scale(1.1);
 }
 #page2 #page2left .boxcode .ri-edit-box-line {
     color: #c71a27;
@@ -133,6 +148,11 @@ html, body {
     margin-left: 50px;
     border-radius: 10px;
 }
+#one:hover>.ri-edit-box-line{
+    color: #fff !important;
+}
+
+
 #page2 #page2left .boxcode .ri-pencil-ruler-2-line{
     color: #c71a27;
     font-size: 80px;
@@ -144,6 +164,9 @@ html, body {
     font-size: 80px;
     margin-left: 50px;
     border-radius: 10px;
+}
+#three:hover>.ri-pencil-ruler-2-line{
+    color: #fff !important;
 }
 #page2 #page2left .boxcode h3{
     color: #fff;
@@ -171,10 +194,18 @@ html, body {
     gap: 10px;
     letter-spacing: 3px;
 }
-#page2 #page2left .boxcode .assss { 
+
+
+#page2 #page2left .boxcode .bttt { 
     color: #c71a27 !important;
 
 }
+
+#page2 #page2left .boxcode:hover>.bttt{
+    color: #fff !important;
+
+}
+
 
 
 
