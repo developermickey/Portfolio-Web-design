@@ -101,9 +101,75 @@ html, body {
 #page2 #page2left{
     width: 50%;
     background-color: #181818;
+    display: flex;
+    padding-top: 5%;
 }
 
-
+#page2 #page2left .boxcode{
+    width: 300px;
+    height: 300px;
+    padding: 30px 0px;
+    border-radius: 10px;
+    
+}
+#one{
+    position: absolute;
+    left: 15%;
+    background-color: #1e1e1e;
+}
+#two{
+    position: absolute;
+    left: 40%;
+    background-color: #c71a27;
+}
+#three{
+    position: absolute;
+    left: 65%;
+    background-color: #181818;
+}
+#page2 #page2left .boxcode .ri-edit-box-line {
+    color: #c71a27;
+    font-size: 80px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#page2 #page2left .boxcode .ri-pencil-ruler-2-line{
+    color: #c71a27;
+    font-size: 80px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#page2 #page2left .boxcode .ri-draft-line {
+    color: #fff;
+    font-size: 80px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#page2 #page2left .boxcode h3{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 60px;
+    
+}
+#page2 #page2left .boxcode p{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#page2 #page2left .boxcode #page2btn{
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 60px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
 
 
 
