@@ -116,7 +116,7 @@ html, body {
     position: absolute;
     left: 15%;
     background-color: #1e1e1e;
-    transition: 1 cubic-bezier(0.19, 1, 0.22, 1) both;
+    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 div#one:hover {
     background-color: #c71926;
@@ -126,7 +126,7 @@ div#one:hover {
     position: absolute;
     left: 40%;
     background-color: #c71a27;
-    transition: 1 cubic-bezier(0.19, 1, 0.22, 1) both;
+    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 div#two:hover {
     background-color: #1e1e1e;
@@ -136,7 +136,7 @@ div#two:hover {
     position: absolute;
     left: 65%;
     background-color: #181818;
-    transition: 1 cubic-bezier(0.19, 1, 0.22, 1) both;
+    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 div#three:hover {
     background-color: #c71926;
