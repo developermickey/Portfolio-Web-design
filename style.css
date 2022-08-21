@@ -201,16 +201,60 @@ div#three:hover {
 
 }
 
-#page2 #page2left .boxcode:hover>.bttt{
+#page2 #page2left .boxcode:hover>.bttt {
     color: #fff !important;
-
 }
 
 
-
-
-
-#page2 #page2right{
+#page2 #page2right {
     width: 50%;
     background-color: #111111;
+}
+
+#page2 #page2right #left2 {
+    color: #fff !important;
+    position: absolute;
+    top: 1100px;
+    left: 270px;
+    align-items: center;
+}
+#page2 #page2right #left2>span {
+    color: #c71a27 !important;
+    font-size: 15vh;
+    font-family: Poppins;
+    font-weight: 900;
+    margin-left: 30px;   
+}
+#page2 #page2right #left2>h4 {
+    color: #fff !important;
+    font-size: 3vh;
+    font-family: Poppins;
+    text-align: center;
+    margin-top: -30px;
+}
+#page2 #page2right #right2 {
+    position: absolute;
+    top: 1080px;
+    left: 560px;
+}
+#page2 #page2right #right2 .column{
+    width: 320px;
+    height: 100px;
+    background-color: #1e1e1e;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+#page2 #page2right #right2 .column>h3{
+    font-size: 32px;
+    color: #c71a27;
+}
+#page2 #page2right #right2 .column>p{
+    font-size: 16px;
+    color: #fff;
 }
